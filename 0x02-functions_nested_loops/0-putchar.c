@@ -1,11 +1,19 @@
-#include "stdio.h"
+#include "main.h"
 
-/** main - Prints _putchar 
- *
+/**
+ * main - prints _putchar, followed by a new line 
  * Return: Always 0 (Success)
  */
 int main (void)
 {
-	printf("_putchar\n");
-	return 0;
+	char cli [] = "_putchar";
+
+	int c;
+	
+	for (c = 0; c < 9; c++)
+	{
+		_putchar(cli[c]);
+	}
+	_putchar('\n');
+	return (0);
 }
