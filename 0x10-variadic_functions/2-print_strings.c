@@ -2,7 +2,8 @@
 
 /**
  * print_strings - prints strings
- *@separator: separator *@n: number of strings
+ *@separator: separator
+ *@n: number of strings
  *Return: nothing
  */
 void print_strings(const char *separator, const unsigned int n, ...)
